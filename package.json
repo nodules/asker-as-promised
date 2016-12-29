@@ -1,0 +1,34 @@
+{
+  "name": "asker-as-promised",
+  "version": "1.0.0",
+  "description": "Wraps Asker API to return native promises.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodules/asker-as-promised.git"
+  },
+  "keywords": [
+    "http",
+    "asker",
+    "client",
+    "request",
+    "promises"
+  ],
+  "author": "Ilya Caulfield <ilya.caulfield@gmail.com> (https://github.com/VodkaBears)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+     "test": "eslint .",
+     "precommit": "npm test"
+  },
+  "dependencies": {
+    "asker": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-nodules": "^0.4.0",
+    "husky": "^0.12.0"
+  }
+}
