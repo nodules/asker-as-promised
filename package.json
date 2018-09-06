@@ -1,6 +1,6 @@
 {
   "name": "asker-as-promised",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Wraps Asker API to return native promises.",
   "main": "./index.js",
   "repository": {
@@ -20,8 +20,8 @@
     "node": ">=4"
   },
   "scripts": {
-     "test": "eslint .",
-     "precommit": "npm test"
+    "test": "eslint .",
+    "precommit": "npm test"
   },
   "dependencies": {
     "asker": "^2.0.0"
