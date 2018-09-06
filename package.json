@@ -24,7 +24,7 @@
      "precommit": "npm test"
   },
   "dependencies": {
-    "asker": "^1.0.0"
+    "asker": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
